@@ -1,0 +1,6 @@
+// To update or add pictures into the blob
+
+update patient set images = load_file('C:/teste/dentalX-ray.jpg') where patient_id = 100;
+
+// add treatment
+INSERT into treatment VALUES (1,null,"Filing",50.00);
